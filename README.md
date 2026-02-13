@@ -9,6 +9,11 @@ A full-stack task management app built with the MERN stack and a Python analytic
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 
+<img width="1647" height="887" alt="image" src="https://github.com/user-attachments/assets/061e50ee-e537-4292-a20e-befb16cd3449" />
+
+
+<img width="1759" height="829" alt="image" src="https://github.com/user-attachments/assets/3d9ee212-8064-45c8-9209-409022d6e22a" />
+
 ## Overview
 
 QuickTask helps users manage their daily tasks with:
