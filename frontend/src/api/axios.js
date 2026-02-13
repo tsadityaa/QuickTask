@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://quicktask-f0jl.onrender.com/api',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
@@ -9,7 +9,7 @@ const API = axios.create({
 });
 
 export const analyticsAPI = axios.create({
-    baseURL: import.meta.env.VITE_ANALYTICS_URL || 'http://localhost:8000/api/analytics',
+    baseURL: import.meta.env.VITE_ANALYTICS_URL || 'https://quicktas.onrender.com/api/analytics',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json',
