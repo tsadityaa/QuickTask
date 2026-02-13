@@ -12,7 +12,10 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: ['http://localhost:5173', 'https://quicktask-2.onrender.com'],
+    credentials: true,
+}));
 app.use(express.json());
 app.use(cookieParser());
 
