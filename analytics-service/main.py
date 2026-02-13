@@ -25,7 +25,7 @@ tasks_collection = db["tasks"]
 users_collection = db["users"]
 
 
-@app.get("/api/analytics/health")
+@app.api_route("/api/analytics/health", methods=["GET", "HEAD"])
 def health_check():
     return {"status": "ok", "service": "analytics"}
 
